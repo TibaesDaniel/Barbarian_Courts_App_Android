@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".OptionsScreen">
+    
+    <ImageView
+        android:layout_width="217dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/logod" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Barbarian Courts Brand Copyright
+The Barbarian Courts trademark is a registered trademark and protected by copyright. All rights reserved.
+Any unauthorized use of the Barbarian Courts brand, including reproduction, modification, distribution or public display without the express permission of Barbarian Courts, is strictly prohibited."
+        android:textSize="10sp"
+        android:textColor="@color/txtOpScream" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="139dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/background_botton"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="Don't you have an account ?"
+        android:textColor="@color/orangeYellow" />
+
+</LinearLayout>
